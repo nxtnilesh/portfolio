@@ -5,6 +5,7 @@ import { useInView } from 'react-intersection-observer';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Code, Palette, Rocket, Users } from 'lucide-react';
+import Image from 'next/image';
 
 const highlights = [
   {
@@ -78,9 +79,11 @@ export function AboutSection() {
             className="relative"
           >
             <div className="relative overflow-hidden rounded-2xl">
-              <img
+              <Image
                 src="https://images.pexels.com/photos/6964348/pexels-photo-6964348.jpeg?_gl=1*vqhi5r*_ga*MjA1NjEwODI5Ny4xNzM1Mjg2OTk3*_ga_8JE65Q40S6*czE3NTIzMjI1ODIkbzckZzEkdDE3NTIzMjI5MjkkajU5JGwwJGgw"
                 alt="Profile"
+                width={100}
+                height={100}
                 className="w-full h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
@@ -111,14 +114,14 @@ export function AboutSection() {
             
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I'm a passionate full-stack developer based in San Francisco, specializing in 
-                modern web technologies. My journey began 5 years ago, and I've been fortunate 
+                I&apos;m a passionate full-stack developer based in San Francisco, specializing in 
+                modern web technologies. My journey began 5 years ago, and I&apos;ve been fortunate 
                 to work with amazing teams on projects that impact thousands of users.
               </p>
               
               <p>
                 I believe in writing clean, maintainable code and creating user experiences 
-                that are not just functional, but delightful. When I'm not coding, you'll 
+                that are not just functional, but delightful. When I&apos;m not coding, you&apos;ll 
                 find me exploring new technologies, contributing to open source, or capturing 
                 moments through photography.
               </p>

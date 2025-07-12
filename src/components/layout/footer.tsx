@@ -1,14 +1,14 @@
 "use client";
 
-import { motion } from 'framer-motion';
-import { Github, Linkedin, Twitter, Mail, Heart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { motion } from 'framer-motion';
+import { Heart, Mail } from 'lucide-react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-  { icon: Mail, href: 'mailto:contact@example.com', label: 'Email' },
+  { icon: FaGithub, href: 'https://github.com/nxtnilesh', label: 'GitHub' },
+   { icon: FaLinkedin, href: 'https://in.linkedin.com/in/nxtnilesh', label: 'LinkedIn' },
+  { icon: Mail, href: 'mailto:nxtnilesh@gmail.com', label: 'Email' },
 ];
 
 export function Footer() {
@@ -64,7 +64,7 @@ export function Footer() {
           >
             <h4 className="text-lg font-semibold">Connect</h4>
             <div className="flex space-x-2">
-              {socialLinks.map((social, index) => (
+              {socialLinks.map((social) => (
                 <Button
                   key={social.label}
                   variant="ghost"

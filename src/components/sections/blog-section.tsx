@@ -6,6 +6,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Calendar, Clock, ArrowRight } from 'lucide-react';
+import Image from 'next/image';
 
 const blogPosts = [
   {
@@ -93,7 +94,7 @@ export function BlogSection() {
             >
               <Card className="h-full overflow-hidden border-0 bg-background/50 backdrop-blur-sm hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
                 <div className="relative overflow-hidden">
-                  <img
+                  <Image
                     src={post.image}
                     alt={post.title}
                     className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
@@ -141,7 +142,7 @@ export function BlogSection() {
               <Card className="h-full overflow-hidden border-0 bg-background/50 backdrop-blur-sm hover:shadow-lg transition-all duration-300 hover:scale-105">
                 <div className="flex">
                   <div className="w-1/3 relative overflow-hidden">
-                    <img
+                    <Image
                       src={post.image}
                       alt={post.title}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"

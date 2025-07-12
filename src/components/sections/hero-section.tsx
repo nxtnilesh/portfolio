@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Download } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export function HeroSection() {
@@ -33,7 +33,7 @@ export function HeroSection() {
             transition={{ duration: 0.6 }}
             className="mb-6"
           >
-            <span className="text-lg text-muted-foreground">Hello, I'm</span>
+            <span className="text-lg text-muted-foreground">Hello, I&apos;m</span>
           </motion.div>
 
           {/* Name */}
