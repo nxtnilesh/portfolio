@@ -68,7 +68,6 @@ export function AboutSection() {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            {/* Passionate developer with 5+ years of experience creating digital solutions */}
             Passionate developer creating digital solutions
           </p>
         </motion.div>
@@ -87,7 +86,7 @@ export function AboutSection() {
                 alt="Profile"
                 width={500}
                 height={500}
-                className="w-full h-[500px] object-cover"
+                className=" object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
             </div>
@@ -108,7 +107,7 @@ export function AboutSection() {
 
           {/* Content */}
           <motion.div
-            initial={{ opacity: 0, x: 50 }}
+            initial={{ opacity: 0, x: -50 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.4 }}
             className="space-y-6"
