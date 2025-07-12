@@ -58,7 +58,7 @@ export function ContactSection() {
             Get In Touch
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ready to start a project or just want to chat? I'd love to hear from you.
+            Ready to start a project or just want to chat? I&apos;d love to hear from you&rsquo;
           </p>
         </motion.div>
 
@@ -71,10 +71,10 @@ export function ContactSection() {
             className="space-y-8"
           >
             <div>
-              <h3 className="text-2xl font-bold mb-6">Let's Connect</h3>
+              <h3 className="text-2xl font-bold mb-6">Let&apos;s Connect</h3>
               <p className="text-muted-foreground mb-8 text-lg">
-                I'm always interested in new opportunities, collaborations, and 
-                interesting projects. Whether you have a question or just want to say hi, 
+                I&apos;m always interested in new opportunities&lsquo; collaborations&lsquo; and 
+                interesting projects. Whether you have a question or just want to say hi&lsquo; 
                 feel free to reach out!
               </p>
             </div>
