@@ -9,10 +9,10 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Portfolio | Professional Developer',
   description: 'Full-stack developer specializing in modern web applications with React, Next.js, and TypeScript',
-  keywords: ['portfolio', 'developer', 'react', 'nextjs', 'typescript', 'fullstack'],
-  authors: [{ name: 'Your Name' }],
+  keywords: ['portfolio', 'developer', 'react', 'nextjs', 'typescript', 'fullstack','nxtnilesh'],
+  authors: [{ name: 'Nilesh Sharma' }],
   openGraph: {
-    title: 'Portfolio | Professional Developer',
+    title: 'Portfolio',
     description: 'Full-stack developer specializing in modern web applications',
     type: 'website',
     locale: 'en_US',

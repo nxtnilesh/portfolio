@@ -7,6 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github, Filter } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
 
 const projects = [
   {
@@ -313,7 +314,7 @@ export function ProjectsSection() {
                         className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                      <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <div className="absolute bottom-4 left-4 right-4 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300">
                         <div className="flex gap-2">
                           <Button size="sm" asChild>
                             <a
@@ -331,7 +332,7 @@ export function ProjectsSection() {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <Github className="w-4 h-4 mr-2" />
+                              <FaGithub className="w-4 h-4 mr-2" />
                               Code
                             </a>
                           </Button>
@@ -387,7 +388,7 @@ export function ProjectsSection() {
                         alt={project.title}
                         className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                       />
-                      <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                      <div className="absolute inset-0 bg-black/60 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                         <div className="flex gap-2">
                           <Button size="sm" asChild>
                             <a

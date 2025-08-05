@@ -16,7 +16,7 @@ const experiences = [
     description:
       "Contributing to the development of AI-powered job recommendation systems. Built scalable backend features and automated web scraping pipelines integrated with LLMs.",
     achievements: [
-      "Built and optimized microservices using Node.js and Express.js",
+      "Built an AI-powered chatbot for job recommendations using a RAG (Retrieval-Augmented Generation) system that analyzes user resumes to deliver personalized suggestions",
       "Integrated web scraping pipelines to feed job data into AI models",
       "Improved matching accuracy by refining AI automation logic",
     ],

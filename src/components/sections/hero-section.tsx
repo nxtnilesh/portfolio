@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { Button } from "@/components/ui/button";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Download } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export function HeroSection() {
@@ -103,14 +103,14 @@ export function HeroSection() {
             </Button>
 
             <div className="flex items-center gap-2">
-              {/* <Button
+              <Button
                 variant="outline"
                 size="lg"
                 className="px-8 py-6 text-lg rounded-full hover:bg-primary/10 border-2"
               >
                 <Download className="mr-2 h-5 w-5" />
-                Resume
-              </Button> */}
+                <a href="https://drive.google.com/file/d/1f40yOqamamjBJQ7o8yE9sFNFXO4c9Pvx/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</a>
+              </Button>
 
               <Button
                 variant="ghost"

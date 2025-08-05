@@ -95,10 +95,7 @@ export function Footer() {
           className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between"
         >
           <p className="text-muted-foreground text-sm">
-            © 2025 Portfolio. All rights reserved.
-          </p>
-          <p className="text-muted-foreground text-sm flex items-center gap-1 mt-2 md:mt-0">
-            Made with <Heart className="h-4 w-4 text-red-500" /> and lots of ☕
+            © 2025 Portfolio
           </p>
         </motion.div>
       </div>
