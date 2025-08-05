@@ -214,7 +214,7 @@ export function SkillsSection() {
         >
 
           <div className="space-y-10">
-            {techCategories.map((category, catIndex) => (
+            {techCategories.map((category) => (
               <div key={category.title}>
                 <h4 className="text-xl font-semibold mb-4">{category.title}</h4>
                 <div className="flex flex-wrap justify-center gap-3">
