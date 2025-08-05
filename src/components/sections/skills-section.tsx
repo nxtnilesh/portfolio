@@ -2,74 +2,74 @@
 
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Progress } from "@/components/ui/progress";
-import { Badge } from "@/components/ui/badge";
-import Image from "next/image";
+// import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+// import { Progress } from "@/components/ui/progress";
+// import { Badge } from "@/components/ui/badge";
+// import Image from "next/image";
 
-const skillCategories = [
-  {
-    title: "Frontend",
-    icon: "🎨",
-    skills: [
-      { name: "React/Next.js", level: 95 },
-      { name: "Tailwind CSS", level: 95 },
-      { name: "Framer Motion", level: 85 },
-    ],
-    color: "from-blue-500 to-cyan-500",
-  },
-  {
-    title: "Backend",
-    icon: "⚙️",
-    skills: [
-      { name: "Node.js", level: 88 },
-      { name: "MongoDb", level: 85 },
-      { name: "SpringBoot", level: 78 },
-    ],
-    color: "from-green-500 to-emerald-500",
-  },
-  {
-    title: "Tools & Others",
-    icon: "🛠️",
-    skills: [
-      { name: "Git & GitHub", level: 92 },
-      { name: "Docker", level: 80 },
-      { name: "AWS", level: 75 },
-    ],
-    color: "from-purple-500 to-pink-500",
-  },
-];
+// const skillCategories = [
+//   {
+//     title: "Frontend",
+//     icon: "🎨",
+//     skills: [
+//       { name: "React/Next.js", level: 95 },
+//       { name: "Tailwind CSS", level: 95 },
+//       { name: "Framer Motion", level: 85 },
+//     ],
+//     color: "from-blue-500 to-cyan-500",
+//   },
+//   {
+//     title: "Backend",
+//     icon: "⚙️",
+//     skills: [
+//       { name: "Node.js", level: 88 },
+//       { name: "MongoDb", level: 85 },
+//       { name: "SpringBoot", level: 78 },
+//     ],
+//     color: "from-green-500 to-emerald-500",
+//   },
+//   {
+//     title: "Tools & Others",
+//     icon: "🛠️",
+//     skills: [
+//       { name: "Git & GitHub", level: 92 },
+//       { name: "Docker", level: 80 },
+//       { name: "AWS", level: 75 },
+//     ],
+//     color: "from-purple-500 to-pink-500",
+//   },
+// ];
 
-const technologies = [
-  "React",
-  "Next.js",
-  "React Native",
-  "TypeScript",
-  "JavaScript",
-  "Node.js",
-  "Express.js",
-  "Flask",
-  "Python",
-  "Scrapy",
-  "PostgreSQL",
-  "MongoDB",
-  "Redis",
-  "Docker",
-  "AWS",
-  "Vercel",
-  "Vercel AI SDK",
-  "Tailwind CSS",
-  "Framer Motion",
-  "REST APIs",
-  "WebSockets",
-  "Clerk",
-  "NextAuth",
-  "Zustand",
-  "Redux",
-  "mem0",
-  "LLMs",
-  "LangChain",
-];
+// const technologies = [
+//   "React",
+//   "Next.js",
+//   "React Native",
+//   "TypeScript",
+//   "JavaScript",
+//   "Node.js",
+//   "Express.js",
+//   "Flask",
+//   "Python",
+//   "Scrapy",
+//   "PostgreSQL",
+//   "MongoDB",
+//   "Redis",
+//   "Docker",
+//   "AWS",
+//   "Vercel",
+//   "Vercel AI SDK",
+//   "Tailwind CSS",
+//   "Framer Motion",
+//   "REST APIs",
+//   "WebSockets",
+//   "Clerk",
+//   "NextAuth",
+//   "Zustand",
+//   "Redux",
+//   "mem0",
+//   "LLMs",
+//   "LangChain",
+// ];
 
 const techCategories = [
   {

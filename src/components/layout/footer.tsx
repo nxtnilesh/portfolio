@@ -2,7 +2,7 @@
 
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
-import { Heart, Mail } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const socialLinks = [
