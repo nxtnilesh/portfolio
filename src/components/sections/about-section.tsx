@@ -116,18 +116,16 @@ export function AboutSection() {
 
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I&apos;m a passionate full-stack developer based in San
-                Francisco, specializing in modern web technologies. My journey
-                began 5 years ago, and I&apos;ve been fortunate to work with
-                amazing teams on projects that impact thousands of users.
+                I&apos;m a passionate full-stack developer based in Gurugram Haryana India, specializing in modern web technologies. My journey
+                began 1 years ago, and I&apos;ve been fortunate to work with
+                amazing teams on projects.
               </p>
 
               <p>
                 I believe in writing clean, maintainable code and creating user
                 experiences that are not just functional, but delightful. When
                 I&apos;m not coding, you&apos;ll find me exploring new
-                technologies, contributing to open source, or capturing moments
-                through photography.
+                technologies, contributing to open source.
               </p>
             </div>
 
